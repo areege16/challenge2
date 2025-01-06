@@ -1,0 +1,128 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: none;
+    margin: none;
+    font-family: Karla;
+    min-height: 90vh;
+}
+
+.container {
+    border-radius: 20px;
+    padding: none;
+    margin: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 960px;
+}
+
+.div1 {
+    background-color: white;
+    padding: 1.25em;
+}
+
+.div1 h2 {
+    color: hsl(179, 53%, 55%);
+}
+
+.div1 h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+/* .ulDiv1{
+    margin: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    color: gray;
+    padding: 0.5em
+} */
+
+.ulDiv1 {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+    line-height: 1.8em;
+}
+
+.div2 {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 2em
+}
+
+.pDiv2 {
+    font-weight: bolder;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.price p {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.price span {
+    color: #e8dfd4;
+    font-size: 15px;
+
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 6px;
+    height: 3.5em;
+    border: none;
+    margin-top: 0.8em;
+}
+
+.button_page {
+    display: flex;
+}
+
+.div3 {
+    color: white;
+    background-color: hsl(179, 53%, 55%);
+    padding: 2em
+}
+
+.ulDiv3 {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(244, 236, 236);
+    margin-top: 1em;
+}
+
+@media (max-width: 375px) {
+    .button_page {
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+@media (min-width: 375px) and (max-width: 900px) {
+    body {
+        background-image: url('2.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+}
